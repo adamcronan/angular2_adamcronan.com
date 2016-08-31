@@ -1,0 +1,125 @@
+
+<div id="my_carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+	<ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+  	</ol>
+  	<div class="carousel-inner" role="listbox">
+
+  		<div class="item active">
+			<div id="home_container1">
+				<h4 class="header_home">
+				Aspiring web developer, designer, and programmer.
+				</h4>
+				<h5 id="tool_info">
+				Programming is a passion of mine; I am always eager to learn new technologies. Here are some that went into making this website:
+				</h5>
+				<div id="toolchest">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="Angular" src="app/images/angular.svg" width="100px" height="100px">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="Node.js" src="app/images/nodejs.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="JavaScript" src="app/images/javascript.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="Node Package Manager" src="app/images/npm.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="HTML5" src="app/images/html5.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="CSS3" src="app/images/css3.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="Bootstrap" src="app/images/bootstrap.svg" width="100px" height="100px">
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tech_logo">
+							<img title="jQuery" src="app/images/jquery.svg" width="100px" height="100px">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="item">
+			<div id="home_container2">
+				<h4 class="header_home" id="header_two">
+				I love to be creative.
+				</h4>
+				<h3 id="maya"> I'm learning 3-D modeling with Maya, and have spent time with Adobe Photoshop and Illustrator. These are the products of my interest:</h3>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+					<img class="info_pics" src="app/images/gv_island.png" height="150px" width="300px">
+					<h4 class="photo_caption"> Unity 5 development, with plan to create a full game </h4>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+					<a href="http://thetaleapp.com" target="_blank"> 
+					<img class="info_pics" src="app/images/tale.png" height="150px" width="300px">
+					</a>
+					<h4 class="photo_caption">Lead developer for Tale, with WordPress experience </h4>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="item">
+			<div id="home_container3">
+				<h4 class="header_home">
+				Like what you see?
+				</h4>
+				<h5 id="givemework">
+				I'm always looking for work. <a routerLink="/contact" class="home_links"> Contact me</a>, shoot me an <a href="mailto:adamcronan10@gmail.com" class="home_links">email</a>, or message me on <a href="www.facebook.com/adamcronan1" class="home_links">Facebook</a>. I'm pretty broke, so I'll work for cheap!
+				</h5>
+				<h5 id="questions">
+				Questions? Here are some resources I find helpful:
+				</h5>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a href="https://angular.io/docs/ts/latest/quickstart.html" target="_blank" title="angular.io">
+					<img src="app/images/angular.svg" class="home_cont2_img">
+					</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a href="https://teamtreehouse.com/" target="_blank" title="teamtreehouse.com">
+					<img src="app/images/treehouse.svg" class="home_cont2_img">
+					</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a href="http://stackoverflow.com/" target="_blank" title="stackoverflow.com">
+					<img src="app/images/stack-overflow.svg" class="home_cont2_img">
+					</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<a class="left carousel-control" href="#my_carousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+  	</a>
+  	<a class="right carousel-control" href="#my_carousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+  	</a>
+
+</div>	
+
+<script type="text/javascript">
+  var $ = jQuery.noConflict();
+  $(document).ready(function() { 
+      $('#my_carousel').carousel({ interval: 10000, cycle: true });
+  }); 
+</script>

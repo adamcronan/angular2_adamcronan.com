@@ -1,0 +1,123 @@
+#my_carousel {
+	margin-top: 2em;
+	width: 80%;
+}
+
+.left {
+	border-radius: 10px;
+}
+
+.right {
+	border-radius: 10px;
+}
+
+
+#home_container1 {
+	margin-top: 1.5em;
+	height: 100%;
+	width: 100%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-radius: 5px;
+}
+
+.header_home {
+	padding-top: 1.5em;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2em;
+}
+
+#tool_info {
+	text-align: center;
+	font-size: 1.7em;
+	margin-bottom: 2em;
+}
+
+#toolchest {
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+.tech_logo {
+	padding: 20px;
+}
+
+#home_container2 {
+	margin-top: 1.5em;
+	height: 100%;
+	width: 100%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#home_container3 {
+	margin-top: 1.5em;
+	height: 100%;
+	width: 100%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#givemework {
+	font-size: 1.7em;
+	margin-bottom: 2em;
+}
+
+#questions {
+	font-size: 1.7em;
+	margin-bottom: 2em;
+}
+
+.home_cont2_img {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 3.2em;
+}
+
+.home_links {
+	text-decoration: none; 
+	color: inherit;
+	font-weight: 600; 
+}
+
+.home_links:hover {
+	color: black;
+}
+
+#header_two {
+	margin-bottom: 2em;
+}
+
+.info_pics {
+	border-radius: 10px;
+	-webkit-transition: all .3s ease-in;
+	transition: .3s;
+}
+
+.info_pics:hover {
+	-webkit-transition: all .6s ease-in;
+	transition: .6s;
+	transform: scale(1.7);
+}
+
+.photo_caption {
+	margin-bottom: 4em;
+}
+
+#maya {
+	margin-bottom: 3em;
+}
+
+ @media screen and (max-width: 800px) {
+    #my_carousel {
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+#adam_info {
+	margin-top: 5em;
+	font-weight: 600;
+	font-size: 1.2em; 
+}
+
+#contact_icon {
+	width: 80%;
+	text-align: center;
+	border-top: 1px solid black;
+	padding-top: 2em;
+	border-radius: 5px;
+}
+
+ @media screen and (max-width: 800px) {
+ 	#footer_container {
+ 		width: 100%;
+ 	}
+
+ 	#adam_info {
+ 		width: 100%;
+ 	}
+
+    #contact_icon {
+    	width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+}

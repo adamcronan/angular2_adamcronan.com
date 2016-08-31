@@ -1,0 +1,14 @@
+form {
+	text-align: left;
+	width: 80%;
+}
+
+.container {
+	width: 100%;
+}
+
+ @media screen and (max-width: 800px) {
+    form {
+        width: 100%;
+    }
+}

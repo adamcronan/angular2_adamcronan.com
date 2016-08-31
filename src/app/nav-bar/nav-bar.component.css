@@ -1,0 +1,55 @@
+nav a {
+	text-transform: uppercase;
+	padding: 1em;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 1.4em;
+    text-decoration: none;
+    width: 100%;
+    border-right: 2px solid #828081;
+    border-top: 2px solid #828081;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+  
+}
+
+nav a:link {
+	text-decoration: none;
+	transition: .5s;
+}
+
+nav a:visited {
+	box-shadow: 5px 5px 5px gray;
+	-webkit-transition: .6s;
+	transition: .6s;
+}
+
+nav a:hover {
+	box-shadow: 5px 5px 5px gray;
+	transition: .6s;
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+	transform: scale(1.2);
+	background-color: black;
+	color: white;
+}
+
+.active-link {
+	box-shadow: 5px 5px 5px gray;
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+	transform: scale(1.2);
+	background-color: black;
+	color: white !important;
+}
+
+@media screen and (max-width: 800px) {
+    nav a {
+    	margin-top: 1.5em;
+        padding: .2em;
+        font-size: .9em;
+        letter-spacing: 1.2px; 
+    }
+}

@@ -1,0 +1,63 @@
+#resume_container {
+	width: 80%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 5px;
+	margin-top: 1.5em;
+}
+
+#resume_header {
+	padding-top: 1.5em;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+#block1 {
+	width: 30px;
+	height: 30px;
+	background-color: #3B5998;
+	border-radius: 5px;
+}
+
+#block2 {
+	width: 30px;
+	height: 30px;
+	background-color: #009900;
+	border-radius: 5px;
+}
+
+.exp_header {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+#jtv_container {
+	width: 100%;
+	padding: 1.5em;
+	font-size: 1.2em;
+}
+
+#mmm_container {
+	width: 100%;
+	padding: 2em;
+	padding-top: 0em;
+	font-size: 1.2em;
+}
+
+#tale {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+}
+
+#tale:hover {
+	color: black;
+}
+
+ @media screen and (max-width: 800px) {
+    #resume_container {
+        width: 100%;
+    }
+}
