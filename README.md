@@ -1,4 +1,4 @@
-These are the source files for my angular 2 website adamcronan.com. To see the main project files, navigate to src in which sections of the website are organized into folders by components (Home, Navbar, etc..). In these folders you will find the HTML, CSS, and Typescript files that make up the website.
+These are the source files for my angular 2 website adamcronan.com. To see the main project files, navigate to src/app in which sections of the website are organized into folders by components (Home, Navbar, etc..). In these folders you will find the HTML, CSS, and Typescript files that make up the website.
 
 # AcDc
 
